@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Java Design Patterns',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -26,12 +26,12 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
-      title: 'VuePress',
+      title: 'Java Design Patterns',
       description: 'Vue-powered Static Site Generator'
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VuePress',
+      title: 'Java Design Patterns',
       description: 'Vue 驱动的静态网站生成器'
     }
   },
@@ -63,16 +63,20 @@ module.exports = {
         algolia: {},
         nav: [
           {
-            text: 'Guide',
-            link: '/guide/',
+            text: 'Patterns',
+            link: '/patterns/',
           },
           {
-            text: 'Config',
-            link: '/config/'
+            text: 'Principles',
+            link: '/principles/'
           },
           {
-            text: 'VuePress',
-            link: 'https://v1.vuepress.vuejs.org'
+            text: 'Snippets',
+            link: '/snippets/'
+          },
+          {
+            text: 'Blog',
+            link: '/blog/'
           }
         ],
 
