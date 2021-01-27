@@ -73,10 +73,6 @@ module.exports = {
           {
             text: 'Snippets',
             link: '/snippets/'
-          },
-          {
-            text: 'Blog',
-            link: '/blog/'
           }
         ],
 
