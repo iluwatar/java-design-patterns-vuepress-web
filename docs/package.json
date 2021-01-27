@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-child-toc": "^0.1.2"
   }
 }

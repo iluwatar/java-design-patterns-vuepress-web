@@ -3,7 +3,7 @@ home: true
 heroImage: office-3193372_640.jpg
 tagline: Design patterns are best practices a programmer can use to solve common problems when designing an application or system.
 actionText: Learn more
-actionLink: /guide/
+actionLink: /patterns/
 features:
 - title: Principles
   details: Software development has some universal principles that can guide and help during design, implementation and review.

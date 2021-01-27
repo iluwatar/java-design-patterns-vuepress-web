@@ -1,0 +1,35 @@
+INFO  [2020-11-22 19:17:15,205] com.iluwatar.servicelayer.app.App: Enumerating all wizards
+INFO  [2020-11-22 19:17:15,218] com.iluwatar.servicelayer.app.App: Aderlard Boud
+INFO  [2020-11-22 19:17:15,219] com.iluwatar.servicelayer.app.App: Anaxis Bajraktari
+INFO  [2020-11-22 19:17:15,219] com.iluwatar.servicelayer.app.App: Xuban Munoa
+INFO  [2020-11-22 19:17:15,219] com.iluwatar.servicelayer.app.App: Blasius Dehooge
+INFO  [2020-11-22 19:17:15,219] com.iluwatar.servicelayer.app.App: Enumerating all spellbooks
+INFO  [2020-11-22 19:17:15,224] com.iluwatar.servicelayer.app.App: Book of Orgymon
+INFO  [2020-11-22 19:17:15,225] com.iluwatar.servicelayer.app.App: Book of Aras
+INFO  [2020-11-22 19:17:15,225] com.iluwatar.servicelayer.app.App: Book of Kritior
+INFO  [2020-11-22 19:17:15,225] com.iluwatar.servicelayer.app.App: Book of Tamaex
+INFO  [2020-11-22 19:17:15,225] com.iluwatar.servicelayer.app.App: Book of Idores
+INFO  [2020-11-22 19:17:15,226] com.iluwatar.servicelayer.app.App: Book of Opaen
+INFO  [2020-11-22 19:17:15,226] com.iluwatar.servicelayer.app.App: Book of Kihione
+INFO  [2020-11-22 19:17:15,226] com.iluwatar.servicelayer.app.App: Enumerating all spells
+INFO  [2020-11-22 19:17:15,237] com.iluwatar.servicelayer.app.App: Ice dart
+INFO  [2020-11-22 19:17:15,237] com.iluwatar.servicelayer.app.App: Invisibility
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Stun bolt
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Confusion
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Darkness
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Fireball
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Enchant weapon
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Rock armour
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Light
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Bee swarm
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Haste
+INFO  [2020-11-22 19:17:15,238] com.iluwatar.servicelayer.app.App: Levitation
+INFO  [2020-11-22 19:17:15,239] com.iluwatar.servicelayer.app.App: Magic lock
+INFO  [2020-11-22 19:17:15,239] com.iluwatar.servicelayer.app.App: Summon hell bat
+INFO  [2020-11-22 19:17:15,239] com.iluwatar.servicelayer.app.App: Water walking
+INFO  [2020-11-22 19:17:15,239] com.iluwatar.servicelayer.app.App: Magic storm
+INFO  [2020-11-22 19:17:15,239] com.iluwatar.servicelayer.app.App: Entangle
+INFO  [2020-11-22 19:17:15,239] com.iluwatar.servicelayer.app.App: Find wizards with spellbook 'Book of Idores'
+INFO  [2020-11-22 19:17:15,242] com.iluwatar.servicelayer.app.App: Xuban Munoa has 'Book of Idores'
+INFO  [2020-11-22 19:17:15,244] com.iluwatar.servicelayer.app.App: Find wizards with spell 'Fireball'
+INFO  [2020-11-22 19:17:15,247] com.iluwatar.servicelayer.app.App: Aderlard Boud has 'Fireball'
