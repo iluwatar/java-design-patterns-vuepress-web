@@ -1,1 +1,3 @@
+# Design Patterns
+
 <ChildTableOfContents />
