@@ -101,7 +101,7 @@ module.exports = {
           }
         },
         nav: [
-          { text: '嵌套', link: '/zh/nested/' }
+          { text: '嵌套', link: '/patterns/zh/' }
         ],
         algolia: {},
         sidebar: {
