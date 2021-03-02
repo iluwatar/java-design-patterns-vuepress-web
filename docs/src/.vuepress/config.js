@@ -28,11 +28,6 @@ module.exports = {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'Java Design Patterns',
       description: 'Vue-powered Static Site Generator'
-    },
-    '/zh/': {
-      lang: 'zh-CN',
-      title: 'Java Design Patterns',
-      description: 'Vue 驱动的静态网站生成器'
     }
   },
 
@@ -90,25 +85,6 @@ module.exports = {
         }
 
       },
-      '/zh/': {
-        selectText: '选择语言',
-        label: '简体中文',
-        editLinkText: '在 GitHub 上编辑此页',
-        serviceWorker: {
-          updatePopup: {
-            message: "发现新内容可用.",
-            buttonText: "刷新"
-          }
-        },
-        nav: [
-          { text: '嵌套', link: '/patterns/zh/' }
-        ],
-        algolia: {},
-        sidebar: {
-          '/zh/': [/* ... */],
-          '/zh/nested/': [/* ... */]
-        }
-      }
     }
   },
 
