@@ -2,8 +2,6 @@
 
 set -x
 
-cd src
-
 # setup java-design-patterns
 rm -rf java-design-patterns
 rm -rf patterns
