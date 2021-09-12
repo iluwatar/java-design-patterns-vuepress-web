@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "Java Design Patterns",
+  description: "Design patterns are best practices a programmer can use to solve common problems when designing an application or system.",
 
   dest: "./dist",
 
@@ -38,38 +38,14 @@ module.exports = config({
     logo: "/logo.svg",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    author: "iluwatar",
+    repo: "https://github.com/iluwatar/java-design-patterns-vuepress-web",
 
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
-      {
-        text: "Guide",
-        icon: "creative",
-        link: "/guide/",
-      },
-      {
-        text: "Docs",
-        link: "https://vuepress-theme-hope.github.io/",
-        icon: "note",
-      },
+      { text: "Patterns", link: "/patterns/", icon: "home" },
+      { text: "Principles", link: "/principles/", icon: "home" },
+      { text: "Snippets", link: "/snippets/", icon: "home" },
     ],
-
-    sidebar: {
-      "/": [
-        "",
-        "home",
-        "slides",
-        "layout",
-        {
-          title: "Guide",
-          icon: "creative",
-          prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
-        },
-      ],
-    },
 
     locales: {
       "/zh/": {
