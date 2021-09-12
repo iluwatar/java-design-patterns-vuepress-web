@@ -5,7 +5,7 @@ set -x
 # setup java-design-patterns
 rm -rf java-design-patterns
 rm -rf patterns
-git clone https://github.com/iluwatar/java-design-patterns.git -b broken-links
+git clone https://github.com/iluwatar/java-design-patterns.git -b vuepress
 cd java-design-patterns
 git checkout-index -a -f --prefix=../patterns/
 cd ../patterns
