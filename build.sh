@@ -2,6 +2,8 @@
 
 set -x
 
+cd docs
+
 # setup java-design-patterns
 rm -rf java-design-patterns
 rm -rf patterns
@@ -31,6 +33,11 @@ cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 cd ..
 rm -rf 30-seconds-of-java
+
+cd ..
+
+# install dependencies
+npm install
 
 # run build
 npm run build
