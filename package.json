@@ -4,6 +4,7 @@
   "description": "Java Design Patterns Website",
   "license": "MIT",
   "scripts": {
+    "debug-build": "vuepress build docs --debug",
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --no-cache",
     "dev": "vuepress dev docs",
