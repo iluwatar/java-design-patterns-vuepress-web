@@ -1,4 +1,4 @@
-# Java Design Patterns Website [![Netlify Status](https://api.netlify.com/api/v1/badges/d1c6a8ba-ed86-40e0-a204-943bba15e9cc/deploy-status)](https://app.netlify.com/sites/jdp-vue/deploys)
+# Java Design Patterns Website [![Netlify Status](https://api.netlify.com/api/v1/badges/d1c6a8ba-ed86-40e0-a204-943bba15e9cc/deploy-status)](https://app.netlify.com/sites/jdp-vue/deploys) [![Join the chat at https://gitter.im/iluwatar/java-design-patterns-vuepress-web](https://badges.gitter.im/iluwatar/java-design-patterns-vuepress-web.svg)](https://gitter.im/iluwatar/java-design-patterns-vuepress-web?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <a href="https://www.netlify.com">
   <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
