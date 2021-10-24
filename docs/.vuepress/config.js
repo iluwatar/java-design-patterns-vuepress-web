@@ -80,16 +80,6 @@ module.exports = config({
       },
     },
 
-    blog: {
-      intro: "/intro/",
-      sidebarDisplay: "mobile",
-      links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
-        Github: "https://github.com",
-      },
-    },
-
     footer: {
       display: true,
       content: "默认页脚",
