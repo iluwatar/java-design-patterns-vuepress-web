@@ -25,21 +25,29 @@ cd ../..
 rm -rf java-design-patterns
 rm -rf patterns/localization
 
-# setup programming-principles
+# setup programming-principles - English
 rm -rf programming-principles
 rm -rf principles
+rm -rf zh/principles
 git clone https://github.com/iluwatar/programming-principles.git
 cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
+# setup programming-principles - Chinese
+mkdir ../zh/principles
+cp -vf README.md ../zh/principles/
 cd ..
 rm -rf programming-principles
 
-# setup 30-seconds-of-java
+# setup 30-seconds-of-java - English
 rm -rf 30-seconds-of-java
 rm -rf snippets
+rm -rf zh/snippets
 git clone https://github.com/iluwatar/30-seconds-of-java.git
 cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
+# setup 30-seconds-of-java - Chinese
+mkdir ../zh/snippets
+cp -vf README.md ../zh/snippets/
 cd ..
 rm -rf 30-seconds-of-java
 
