@@ -4,54 +4,40 @@ home: true
 icon: home
 title: Java Design Patterns
 heroImage: /logo.svg
-heroText: Software design patterns, principles, and snippets
-tagline: The best designers will use many design patterns that dovetail and intertwine to produce a greater whole --Erich Gamma
+heroText: 软件设计模式，编程原则还有代码片段
+tagline: 最好的设计师会使用许多相互吻合和交织的设计模式，以产生更大的整体 --Erich Gamma
 heroFullScreen: true
 action:
-  - text: Study the design patterns 💡
+  - text: 学习设计模式 💡
     link: /patterns/
     type: primary
 features:
-  - title: Design Patterns
-    details: Study the world's largest collection of software design patterns implemented in Java.
+  - title: 设计模式
+    details: 学习世界上最大的用 Java 实现的软件设计模式集合。
     link: /patterns/
-  - title: Software Design Principles
-    details: Software design has certain universal laws and principles to guide the implementors.
+  - title: 软件设计原则
+    details: 软件设计有一定的普遍规律和原则来指导实施者。
     link: /principles/
-  - title: Code Snippets
-    details: 30 Seconds of Java is a collection of reusable, tested, copy-pasteable Java 11 compatible code snippets that you can understand in 30 seconds or less.
+  - title: 代码片段
+    details: 30秒钟Java是一组可重用、经过测试、可复制粘贴的 Java 11 兼容代码片段，您可以在 30 秒或更短的时间内理解这些代码片段。
     link: /snippets/
 footer: MIT licensed
 ---
 
-# Introduction
+# 介绍
 
-Design patterns are the best formalized practices a programmer can use to
-solve common problems when designing an application or system.
+设计模式是程序员在设计应用程序或系统时可以用来解决常见问题的最佳形式化实践。
+设计模式可以通过提供经过测试的、经过验证的开发范例来加速开发过程。
+重用设计模式有助于防止导致重大问题的细微问题，并且还提高了熟悉这些模式的编码人员和架构师的代码可读性。
 
-Design patterns can speed up the development process by providing tested, proven
-development paradigms.
+# 开始
 
-Reusing design patterns help prevent subtle issues that cause major
-problems, and it also improves code readability for coders and architects who
-are familiar with the patterns.
+该站点展示了基于 Java 的设计模式、原则和代码片段。 这些解决方案由来自开源社区的经验丰富的程序员和架构师开发。 这些模式可以通过它们的高级描述或通过查看它们的源代码来浏览。 源代码示例有很好的注释，可以被认为是关于如何实现特定模式的编程教程。 我们使用最流行的久经考验的开源 Java 技术。
+希望您发现本网站上提供的面向对象的解决方案对您的体系结构很有用，并且在学习它们时和我们开发它们时一样有趣。
 
-# Getting started
+# 如何贡献
 
-This site showcases Java-based design patterns, principles, and code snippets. The 
-solutions have been developed by experienced programmers and architects from the 
-open source community. The patterns can be browsed by their high level descriptions 
-or by looking at their source code. The source code examples are well commented and 
-can be thought as programming tutorials on how to implement a specific pattern. We 
-use the most popular battle-proven open source Java technologies.
-
-Hopefully you find the object oriented solutions presented on this site useful
-in your architectures and have as much fun learning them as we had developing them.
-
-# How to contribute
-
-The website is the result of the work of the open source community. To contribute
-to the content, please follow the Github repository links below.
+该网站是开源社区工作的结果。 要对内容做出贡献，请按照下面的 Github 仓库链接进行操作。
 
 - [Website](https://github.com/iluwatar/java-design-patterns-vuepress-web)
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns)
