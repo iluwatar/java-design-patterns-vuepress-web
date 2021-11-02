@@ -49,9 +49,9 @@ module.exports = config({
     locales: {
       "/zh/": {
         nav: [
-          { text: "Patterns", link: "/zh/patterns/", icon: "home" },
-          { text: "Principles", link: "/zh/principles/", icon: "home" },
-          { text: "Snippets", link: "/zh/snippets/", icon: "home" },
+          { text: "设计模式", link: "/zh/patterns/", icon: "home" },
+          { text: "编程原则", link: "/zh/principles/", icon: "home" },
+          { text: "代码片段", link: "/zh/snippets/", icon: "home" },
         ],
       },
     },
