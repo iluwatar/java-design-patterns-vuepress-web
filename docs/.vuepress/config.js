@@ -78,6 +78,6 @@ module.exports = config({
     },
 
     pwa: false,
-
+    editLinks: false,
   },
 });
