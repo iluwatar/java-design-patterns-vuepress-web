@@ -34,7 +34,7 @@ module.exports = config({
   },
 
   themeConfig: {
-    logo: "/logo.svg",
+    logo: "/coffee.svg",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
     author: "iluwatar",
