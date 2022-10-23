@@ -8,7 +8,7 @@ cd docs
 rm -rf java-design-patterns
 rm -rf patterns
 rm -rf zh/patterns
-git clone https://github.com/iluwatar/java-design-patterns.git -b vuepress
+git clone https://github.com/iluwatar/java-design-patterns.git
 cd java-design-patterns
 git checkout-index -a -f --prefix=../patterns/
 cd ../patterns
