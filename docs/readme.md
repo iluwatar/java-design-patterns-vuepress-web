@@ -3,7 +3,7 @@ blog: false
 home: true
 icon: home
 title: Java Design Patterns
-heroImage: /logo.svg
+heroImage: /coffee.svg
 heroText: Software design patterns, principles, and snippets
 tagline: The best designers will use many design patterns that dovetail and intertwine to produce a greater whole --Erich Gamma
 heroFullScreen: true
