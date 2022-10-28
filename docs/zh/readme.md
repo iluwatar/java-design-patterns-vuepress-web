@@ -3,7 +3,7 @@ blog: false
 home: true
 icon: home
 title: Java Design Patterns
-heroImage: /logo.svg
+heroImage: /coffee.svg
 heroText: 软件设计模式，编程原则还有代码片段
 tagline: 最好的设计师会使用许多相互吻合和交织的设计模式，以产生更大的整体 --Erich Gamma
 heroFullScreen: true
