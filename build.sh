@@ -14,13 +14,18 @@ git checkout-index -a -f --prefix=../patterns/
 cd ../patterns
 rm -rf etc .circleci .github .mvn checkstyle-suppressions.xml CONTRIBUTING.MD LICENSE.md license-plugin-header-style.xml mvnw mvnw.cmd pom.xml PULL_REQUEST_TEMPLATE.md .all-contributorsrc .gitignore gpl-3.0.txt layers.log lgpl-3.0.txt lombok.config service-layer.log 
 find . -maxdepth 2 -type d -exec bash -c 'cd "{}" && pwd && rm -rf src pom.xml *.ucls *.puml .gitignore' \;
-mv -vf index.md README.md
+
+rm -v index.md README.md
+echo "<ChildTableOfContents />" > README.md
+
 # Setup java-design-patterns - Chinese
 cd localization/zh
 mkdir ../../../zh/patterns
 cp -vrf * ../../../zh/patterns
 cd ../../../zh/patterns
-mv -vf index.md README.md
+rm -v index.md README.md
+echo "<ChildTableOfContents />" > README.md
+
 cd ../..
 rm -rf java-design-patterns
 rm -rf patterns/localization
