@@ -80,4 +80,6 @@ module.exports = config({
     pwa: false,
     editLinks: false,
   },
+
+  plugins: ['vuepress-plugin-child-toc'],
 });
