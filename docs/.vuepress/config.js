@@ -81,5 +81,12 @@ module.exports = config({
     editLinks: false,
   },
 
-  plugins: ['vuepress-plugin-child-toc'],
+  plugins: [
+    ['vuepress-plugin-child-toc'],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-WNRXJLK7SZ'
+      }
+    ]]
 });
