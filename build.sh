@@ -2,6 +2,8 @@
 
 set -x
 
+ROOT_DIR=$(pwd)
+DOCS_DIR=$ROOT_DIR/docs
 cd docs
 
 # Setup java-design-patterns - English
@@ -18,15 +20,20 @@ find . -maxdepth 2 -type d -exec bash -c 'cd "{}" && pwd && rm -rf src pom.xml *
 rm -v README.md
 echo "<ChildTableOfContents />" > README.md
 
-# Setup java-design-patterns - Chinese
-cd localization/zh
-mkdir ../../../zh/patterns
-cp -vrf * ../../../zh/patterns
-cd ../../../zh/patterns
-rm -v README.md
-echo "<ChildTableOfContents />" > README.md
+# Setup java-design-patterns - localizations
+languages=( zh )
+for lan in "${languages[@]}"
+do
+  cd localization/$lan
+  mkdir ../../../$lan/patterns
+  cp -vrf * ../../../$lan/patterns
+  cd ../../../$lan/patterns
+  rm -v README.md
+  echo "<ChildTableOfContents />" > README.md
+  cd ../../patterns
+done
 
-cd ../..
+cd $DOCS_DIR
 rm -rf java-design-patterns
 rm -rf patterns/localization
 
@@ -37,6 +44,7 @@ rm -rf zh/principles
 git clone https://github.com/iluwatar/programming-principles.git
 cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
+
 # setup programming-principles - Chinese
 mkdir ../zh/principles
 cp -vf README.md ../zh/principles/
@@ -50,6 +58,7 @@ rm -rf zh/snippets
 git clone https://github.com/iluwatar/30-seconds-of-java.git
 cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
+
 # setup 30-seconds-of-java - Chinese
 mkdir ../zh/snippets
 cp -vf README.md ../zh/snippets/
