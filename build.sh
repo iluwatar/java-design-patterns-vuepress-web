@@ -3,8 +3,8 @@
 set -x
 
 ROOT_DIR=$(pwd)
-DOCS_DIR=$ROOT_DIR/docs
-cd docs
+DOCS_DIR=$ROOT_DIR/src
+cd $DOCS_DIR
 
 # Setup java-design-patterns - English
 rm -rf java-design-patterns
@@ -18,18 +18,18 @@ rm -rf etc .circleci .github .mvn checkstyle-suppressions.xml CONTRIBUTING.MD LI
 find . -maxdepth 2 -type d -exec bash -c 'cd "{}" && pwd && rm -rf src pom.xml *.ucls *.puml .gitignore' \;
 
 rm -v README.md
-echo "<ChildTableOfContents />" > README.md
+#echo "<ChildTableOfContents />" > README.md
 
 # Setup java-design-patterns - localizations
 languages=( zh )
 for lan in "${languages[@]}"
 do
   cd localization/$lan
-  mkdir ../../../$lan/patterns
+  mkdir -p ../../../$lan/patterns
   cp -vrf * ../../../$lan/patterns
   cd ../../../$lan/patterns
   rm -v README.md
-  echo "<ChildTableOfContents />" > README.md
+#  echo "<ChildTableOfContents />" > README.md
   cd ../../patterns
 done
 
@@ -68,7 +68,7 @@ rm -rf 30-seconds-of-java
 cd ..
 
 # install dependencies
-npm install
+pnpm install
 
 # run build
-npm run build
+pnpm run build
