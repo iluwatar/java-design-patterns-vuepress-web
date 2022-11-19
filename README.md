@@ -13,6 +13,7 @@ This repository contains the source code of Java Design Patterns website, powere
 Running it locally is easy, just follow these steps:
 
 - Clone this repository
-- Check out the dependencies and run build `./build.sh`
-- Run the local development server `npm run dev`
+- Install the dependencies `pnpm install`
+- Prepare the content `pnpm run generate`
+- Run the local development server `pnpm run dev`
 - Access the website `http://localhost:8080/`

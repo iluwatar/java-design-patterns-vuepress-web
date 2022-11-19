@@ -1,21 +1,21 @@
 {
-  "name": "java-design-patterns-vuepress-web",
-  "version": "1.0.0",
-  "description": "Java Design Patterns Website",
+  "name": "vuepress-theme-hope-template",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "debug-build": "vuepress build docs --debug",
-    "build": "vuepress build docs",
-    "clean-dev": "vuepress dev docs --no-cache",
-    "dev": "vuepress dev docs",
-    "eject-theme": "vuepress eject-hope docs"
+    "generate": "./generate.sh",
+    "build": "vuepress build src",
+    "clean-dev": "vuepress dev src --clean-cache",
+    "dev": "vuepress dev src"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "vuepress": "^1.8.2",
-    "vuepress-theme-hope": "^1.20.2"
-  },
-  "dependencies": {
-    "vuepress-plugin-child-toc": "^0.1.2"
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-google-analytics": "2.0.0-beta.53",
+    "@vuepress/plugin-register-components": "2.0.0-beta.53",
+    "vue": "^3.2.44",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.122"
   }
 }
