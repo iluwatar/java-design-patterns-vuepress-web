@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-import { subpageDirectoryPlugin } from "vuepress-plugin-subpage-directory";
 
 export default defineUserConfig({
   base: "/",
@@ -34,7 +33,6 @@ export default defineUserConfig({
     registerComponentsPlugin({
       componentsDir: 'src/.vuepress/components',
     }),
-    subpageDirectoryPlugin(),
   ],
 
 });
