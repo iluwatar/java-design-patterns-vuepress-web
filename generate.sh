@@ -17,8 +17,8 @@ cd ../patterns
 rm -rf etc .circleci .github .mvn checkstyle-suppressions.xml CONTRIBUTING.MD LICENSE.md license-plugin-header-style.xml mvnw mvnw.cmd pom.xml PULL_REQUEST_TEMPLATE.md .all-contributorsrc .gitignore gpl-3.0.txt layers.log lgpl-3.0.txt lombok.config service-layer.log 
 find . -maxdepth 2 -type d -exec bash -c 'cd "{}" && pwd && rm -rf src pom.xml *.ucls *.puml .gitignore' \;
 
-rm -v README.md
-echo "<SubpageDirectory />" > README.md
+rm -vf README.md
+$ROOT_DIR/index.sh
 
 # Setup java-design-patterns - localizations
 languages=( zh )
@@ -28,8 +28,8 @@ do
   mkdir -p ../../../$lan/patterns
   cp -vrf * ../../../$lan/patterns
   cd ../../../$lan/patterns
-  rm -v README.md
-  echo "<SubpageDirectory />" > README.md
+  rm -vf README.md
+  $ROOT_DIR/index.sh
   cd ../../patterns
 done
 
