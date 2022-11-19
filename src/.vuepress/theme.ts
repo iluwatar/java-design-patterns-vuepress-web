@@ -1,6 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://java-design-patterns.com",
@@ -18,7 +17,7 @@ export default hopeTheme({
 
   docsDir: "demo/theme-docs/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Category", "Tag", "ReadingTime"],
 
   locales: {
     "/": {
@@ -31,9 +30,7 @@ export default hopeTheme({
 
       displayFooter: true,
 
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
+      editLink: false,
     },
 
     /**
@@ -49,17 +46,7 @@ export default hopeTheme({
 
       displayFooter: true,
 
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
-  },
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      editLink: false,
     },
   },
 
