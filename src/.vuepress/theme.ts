@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enNavbar, koNavbar, zhNavbar } from "./navbar/index.js";
 
 export default hopeTheme({
   hostname: "https://java-design-patterns.com",
@@ -21,7 +21,6 @@ export default hopeTheme({
 
   locales: {
     "/": {
-      // navbar
       navbar: enNavbar,
 
       sidebar: false,
@@ -31,13 +30,13 @@ export default hopeTheme({
       displayFooter: true,
 
       editLink: false,
+      
     },
 
     /**
      * Chinese locale config
      */
     "/zh/": {
-      // navbar
       navbar: zhNavbar,
 
       sidebar: false,
@@ -48,6 +47,22 @@ export default hopeTheme({
 
       editLink: false,
     },
+
+    /**
+     * Korean locale config
+     */
+     "/ko/": {
+      navbar: koNavbar,
+
+      sidebar: false,
+
+      footer: "MIT 라이센스",
+
+      displayFooter: true,
+
+      editLink: false,
+    },
+
   },
 
   plugins: {
