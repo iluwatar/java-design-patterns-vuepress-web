@@ -12,12 +12,12 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "",
+      title: "Java Design Patterns",
       description: "",
     },
     "/zh/": {
-      lang: "",
-      title: "",
+      lang: "zh-CN",
+      title: "Java Design Patterns",
       description: "",
     },
   },
