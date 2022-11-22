@@ -20,6 +20,11 @@ export default defineUserConfig({
       title: "Java Design Patterns",
       description: "",
     },
+    "/ko/": {
+      lang: "ko-KR",
+      title: "Java Design Patterns",
+      description: "",
+    },
   },
 
   theme,

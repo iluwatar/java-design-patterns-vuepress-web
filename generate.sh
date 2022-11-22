@@ -21,7 +21,7 @@ rm -vf README.md
 $ROOT_DIR/index.sh
 
 # Setup java-design-patterns - localizations
-languages=( zh )
+languages=( zh ko )
 for lan in "${languages[@]}"
 do
   cd localization/$lan
@@ -46,8 +46,12 @@ cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
 
 # setup programming-principles - Chinese
-mkdir ../zh/principles
-cp -vf README.md ../zh/principles/
+languages=( zh ko )
+for lan in "${languages[@]}"
+do
+  mkdir ../$lan/principles
+  cp -vf README.md ../$lan/principles/
+done
 cd ..
 rm -rf programming-principles
 
@@ -60,9 +64,11 @@ cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 
 # setup 30-seconds-of-java - Chinese
-mkdir ../zh/snippets
-cp -vf README.md ../zh/snippets/
+languages=( zh ko )
+for lan in "${languages[@]}"
+do
+  mkdir ../$lan/snippets
+  cp -vf README.md ../$lan/snippets/
+done
 cd ..
 rm -rf 30-seconds-of-java
-
-cd ..

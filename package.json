@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-theme-hope-template",
+  "name": "java-design-patterns-vuepress-web",
   "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
+  "description": "A website project built on vuepress 2 with vuepress-theme-hope",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -11,11 +11,11 @@
     "dev": "vuepress dev src"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.53",
-    "@vuepress/plugin-google-analytics": "2.0.0-beta.53",
-    "@vuepress/plugin-register-components": "2.0.0-beta.53",
-    "vue": "^3.2.44",
-    "vuepress": "2.0.0-beta.53",
-    "vuepress-theme-hope": "2.0.0-beta.122"
+    "@vuepress/client": "^2.0.0-beta.53",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.53",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.53",
+    "vue": "^3.2.45",
+    "vuepress": "^2.0.0-beta.53",
+    "vuepress-theme-hope": "^2.0.0-beta.126"
   }
 }
