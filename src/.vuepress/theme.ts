@@ -60,12 +60,6 @@ export default hopeTheme({
       displayFooter: true,
 
       editLink: false,
-
-      navbarLocales: {
-        selectLangAriaLabel: "Korean",
-        langName: "Korean",
-      },
-
     },
 
   },

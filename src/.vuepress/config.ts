@@ -13,16 +13,16 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       title: "Java Design Patterns",
-      description: "",
+      description: "Java Design Patterns (English)",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "Java Design Patterns",
+      title: "Java Design Patterns (中文)",
       description: "",
     },
     "/ko/": {
       lang: "ko-KR",
-      title: "Java Design Patterns",
+      title: "Java Design Patterns (한국어)",
       description: "",
     },
   },
