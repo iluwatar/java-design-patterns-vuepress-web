@@ -15,12 +15,15 @@ features:
   - title: Design Patterns
     details: Study the world's largest collection of software design patterns implemented in Java.
     link: /patterns/
+    icon: home
   - title: Software Design Principles
     details: Software design has certain universal laws and principles to guide the implementors.
     link: /principles/
+    icon: certificate
   - title: Code Snippets
     details: 30 Seconds of Java is a collection of reusable, tested, copy-pasteable Java 11 compatible code snippets that you can understand in 30 seconds or less.
     link: /snippets/
+    icon: code
 ---
 
 # Introduction

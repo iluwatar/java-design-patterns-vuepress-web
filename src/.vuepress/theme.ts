@@ -9,7 +9,7 @@ export default hopeTheme({
     url: "https://github.com/iluwatar/java-design-patterns-vuepress-web",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   logo: "/coffee.svg",
 
