@@ -1,3 +1,8 @@
+echo "---" >> README.md
+echo "language: $1" >> README.md
+echo "title: $2" >> README.md
+echo "---" >> README.md
+echo "" >> README.md
 echo "<ul>" >> README.md
 for dir in *; do
     if [ -d "$dir" ] && [ "$dir" != "localization" ]; then

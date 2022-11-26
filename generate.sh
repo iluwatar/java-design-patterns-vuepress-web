@@ -18,10 +18,13 @@ rm -rf etc .circleci .github .mvn checkstyle-suppressions.xml CONTRIBUTING.MD LI
 find . -maxdepth 2 -type d -exec bash -c 'cd "{}" && pwd && rm -rf src pom.xml *.ucls *.puml .gitignore' \;
 
 rm -vf README.md
-$ROOT_DIR/index.sh
+$ROOT_DIR/index.sh "en" "Design Pattern Catalog"
 
 # Setup java-design-patterns - localizations
 languages=( zh ko )
+catalogs=( "設計模式目錄" "디자인 패턴 카탈로그" )
+
+iter=0
 for lan in "${languages[@]}"
 do
   cd localization/$lan
@@ -29,8 +32,9 @@ do
   cp -vrf * ../../../$lan/patterns
   cd ../../../$lan/patterns
   rm -vf README.md
-  $ROOT_DIR/index.sh
+  $ROOT_DIR/index.sh "$lan" "${catalogs[$iter]}"
   cd ../../patterns
+  iter=$((iter+1))
 done
 
 cd $DOCS_DIR
