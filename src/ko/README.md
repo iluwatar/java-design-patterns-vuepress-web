@@ -15,12 +15,15 @@ features:
   - title: 디자인 패턴
     details: Java로 구현된 세계 최대의 소프트웨어 디자인 패턴 모음을 학습합니다.
     link: /patterns/
+    icon: home
   - title: 소프트웨어 설계 원칙
     details: 소프트웨어 디자인에는 구현자를 안내하는 특정 보편적인 법칙과 원칙이 있습니다.
     link: /principles/
+    icon: certificate
   - title: 코드 조각
     details: 30 Seconds of Java는 30초 이내에 이해할 수 있는 재사용, 테스트, 복사-붙여넣기 가능한 Java 11 호환 코드 조각 모음입니다.
     link: /snippets/
+    icon: code
 ---
 
 # 소개

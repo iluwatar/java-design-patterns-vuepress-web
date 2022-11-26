@@ -19,6 +19,8 @@ export default hopeTheme({
 
   pageInfo: ["Category", "Tag", "ReadingTime"],
 
+  breadcrumb: false,
+
   locales: {
     "/": {
       navbar: enNavbar,
