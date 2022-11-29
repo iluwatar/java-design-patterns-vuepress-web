@@ -22,7 +22,7 @@ $ROOT_DIR/index.sh "en" "Design Pattern Catalog"
 
 # Setup java-design-patterns - localizations
 languages=( zh ko )
-catalogs=( "設計模式目錄" "디자인 패턴 카탈로그" )
+catalogs=( "设计模式目录" "디자인 패턴 카탈로그" )
 
 iter=0
 for lan in "${languages[@]}"
