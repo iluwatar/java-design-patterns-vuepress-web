@@ -93,6 +93,8 @@ export default hopeTheme({
       //serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     //},
 
+    blog: true,
+
     // Disable features you don’t want here
     mdEnhance: {
       align: true,
