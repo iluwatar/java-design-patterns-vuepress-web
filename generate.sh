@@ -49,7 +49,7 @@ git clone https://github.com/iluwatar/programming-principles.git
 cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
 
-# setup programming-principles - Chinese
+# setup programming-principles - localizations
 languages=( zh ko )
 for lan in "${languages[@]}"
 do
@@ -67,12 +67,16 @@ git clone https://github.com/iluwatar/30-seconds-of-java.git
 cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 
-# setup 30-seconds-of-java - Chinese
+# setup 30-seconds-of-java - localizations
 languages=( zh ko )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/snippets
-  cp -vf README.md ../$lan/snippets/
+  if [ $lan == "ko" ]; then
+    cp -vf localization/ko/README.md ../$lan/snippets/
+  else
+    cp -vf README.md ../$lan/snippets/
+  fi
 done
 cd ..
 rm -rf 30-seconds-of-java
