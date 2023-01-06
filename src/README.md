@@ -21,7 +21,7 @@ features:
     link: /principles/
     icon: certificate
   - title: Code Snippets
-    details: 30 Seconds of Java is a collection of reusable, tested, copy-pasteable Java 11 compatible code snippets that you can understand in 30 seconds or less.
+    details: 30 Seconds of Java is a collection of reusable, tested, copy-pasteable Java 17 compatible code snippets that you can understand in 30 seconds or less.
     link: /snippets/
     icon: code
 ---

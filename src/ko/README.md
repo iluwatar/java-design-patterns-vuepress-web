@@ -21,7 +21,7 @@ features:
     link: /principles/
     icon: certificate
   - title: 코드 조각
-    details: 30 Seconds of Java는 30초 이내에 이해할 수 있는 재사용, 테스트, 복사-붙여넣기 가능한 Java 11 호환 코드 조각 모음입니다.
+    details: 30 Seconds of Java는 30초 이내에 이해할 수 있는 재사용, 테스트, 복사-붙여넣기 가능한 Java 17 호환 코드 조각 모음입니다.
     link: /snippets/
     icon: code
 ---
