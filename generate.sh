@@ -72,11 +72,7 @@ languages=( zh ko )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/snippets
-  if [ $lan == "ko" ]; then
-    cp -vf localization/ko/README.md ../$lan/snippets/
-  else
-    cp -vf README.md ../$lan/snippets/
-  fi
+  cp -vf localization/$lan/README.md ../$lan/snippets/
 done
 cd ..
 rm -rf 30-seconds-of-java
