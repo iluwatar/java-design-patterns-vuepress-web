@@ -9,20 +9,20 @@ tagline: 最好的设计师会使用许多相互吻合和交织的设计模式�
 heroFullScreen: true
 action:
   - text: 学习设计模式 💡
-    link: /patterns/
+    link: /zh/patterns/
     type: primary
 features:
   - title: 设计模式
     details: 学习世界上最大的用 Java 实现的软件设计模式集合。
-    link: /patterns/
+    link: /zh/patterns/
     icon: home
   - title: 软件设计原则
     details: 软件设计有一定的普遍规律和原则来指导实施者。
-    link: /principles/
+    link: /zh/principles/
     icon: certificate
   - title: 代码片段
     details: 30秒钟Java是一组可重用、经过测试、可复制粘贴的 Java 17 兼容代码片段，您可以在 30 秒或更短的时间内理解这些代码片段。
-    link: /snippets/
+    link: /zh/snippets/
     icon: code
 footer: MIT licensed
 ---
