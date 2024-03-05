@@ -1,7 +1,7 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const esNavbar = navbar([
-  { text: "Patrones", link: "/patterns/" },
-  { text: "Principios", link: "/principles/" },
-  { text: "Fragmentos", link: "/snippets/" },
+  { text: "Patrones", link: "/es/patterns/" },
+  { text: "Principios", link: "/es/principles/" },
+  { text: "Fragmentos", link: "/es/snippets/" },
 ]);

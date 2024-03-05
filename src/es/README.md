@@ -7,7 +7,7 @@ heroImage: /coffee.svg
 heroText: Patrones, principios y fragmentos de diseño de software
 tagline: Los mejores diseñadores utilizan muchos patrones de diseño que encajan y se entrelazan para producir un todo mayor --Erich Gamma
 heroFullScreen: true
-action:
+actions:
   - text: Estudiar los patrones de diseño 💡
     link: /es/patterns/
     type: primary
