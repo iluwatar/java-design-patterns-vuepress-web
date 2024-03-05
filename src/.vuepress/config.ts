@@ -25,6 +25,11 @@ export default defineUserConfig({
       title: "Java Design Patterns (한국어)",
       description: "",
     },
+    "/es/": {
+      lang: "es-ES",
+      title: "Patrones de Diseño Java",
+      description: "Patrones de Diseño Java (Español)",
+    },
   },
 
   theme,

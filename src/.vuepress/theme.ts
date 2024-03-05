@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, koNavbar, zhNavbar } from "./navbar/index.js";
+import { enNavbar, koNavbar, zhNavbar, esNavbar } from "./navbar";
 
 export default hopeTheme({
   hostname: "https://java-design-patterns.com",
@@ -58,6 +58,21 @@ export default hopeTheme({
       sidebar: false,
 
       footer: "MIT 라이센스",
+
+      displayFooter: true,
+
+      editLink: false,
+    },
+
+    /**
+     * Spanish locale config
+     */
+    "/es/": {
+      navbar: esNavbar,
+
+      sidebar: false,
+
+      footer: "Licencia MIT",
 
       displayFooter: true,
 
