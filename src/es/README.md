@@ -9,20 +9,20 @@ tagline: Los mejores diseñadores utilizan muchos patrones de diseño que encaja
 heroFullScreen: true
 action:
   - text: Estudiar los patrones de diseño 💡
-    link: /patterns/
+    link: /es/patterns/
     type: primary
 features:
   - title: Patrones de diseño
     details: Estudie la mayor colección del mundo de patrones de diseño de software implementados en Java.
-    link: /patterns/
+    link: /es/patterns/
     icon: home
   - title: Principios de diseño de software
     details: El diseño de software se rige por ciertas leyes y principios universales.
-    link: /principles/
+    link: /es/principles/
     icon: certificate
   - title: Fragmentos de código
     details: 30 Seconds of Java es una colección de fragmentos de código reutilizables, probados y compatibles con Java 17 que se pueden copiar y pegar y que se pueden entender en 30 segundos o menos.
-    link: /snippets/
+    link: /es/snippets/
     icon: code
 ---
 
