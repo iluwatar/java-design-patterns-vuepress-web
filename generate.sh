@@ -21,8 +21,8 @@ rm -vf README.md
 $ROOT_DIR/index.sh "en" "Design Pattern Catalog"
 
 # Setup java-design-patterns - localizations
-languages=( zh ko )
-catalogs=( "设计模式目录" "디자인 패턴 카탈로그" )
+languages=( zh ko es )
+catalogs=( "设计模式目录" "디자인 패턴 카탈로그" "Catalogo de patrones de diseño" )
 
 iter=0
 for lan in "${languages[@]}"
@@ -50,7 +50,7 @@ cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
 
 # setup programming-principles - localizations
-languages=( zh ko )
+languages=( zh ko es )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/principles
@@ -68,7 +68,7 @@ cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 
 # setup 30-seconds-of-java - localizations
-languages=( zh ko )
+languages=( zh ko es )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/snippets
