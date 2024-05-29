@@ -6,7 +6,7 @@ title: Java Design Patterns
 heroImage: /coffee.svg
 heroText: 소프트웨어 디자인 패턴, 원칙 및 스니펫
 tagline: 최고의 디자이너는 더 큰 전체를 생산하기 위해 얽히고 얽힌 많은 디자인 패턴을 사용할 것입니다. --Erich Gamma
-heroFullScreen: true
+heroFullScreen: false
 action:
   - text: 디자인 패턴 연구 💡
     link: /patterns/
