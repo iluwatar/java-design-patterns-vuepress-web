@@ -6,7 +6,7 @@ title: Java Design Patterns
 heroImage: /coffee.svg
 heroText: 软件设计模式，编程原则还有代码片段
 tagline: 最好的设计师会使用许多相互吻合和交织的设计模式，以产生更大的整体 --Erich Gamma
-heroFullScreen: true
+heroFullScreen: false
 action:
   - text: 学习设计模式 💡
     link: /zh/patterns/

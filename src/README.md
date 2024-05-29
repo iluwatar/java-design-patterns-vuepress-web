@@ -6,11 +6,14 @@ title: Java Design Patterns
 heroImage: /coffee.svg
 heroText: Software design patterns, principles, and snippets
 tagline: The best designers will use many design patterns that dovetail and intertwine to produce a greater whole --Erich Gamma
-heroFullScreen: true
+heroFullScreen: false
 action:
+  - text: Get the book 📖
+    link: /book/
+    type: primary
   - text: Study the design patterns 💡
     link: /patterns/
-    type: primary
+    type: default
 features:
   - title: Design Patterns
     details: Study the world's largest collection of software design patterns implemented in Java.
@@ -24,6 +27,10 @@ features:
     details: 30 Seconds of Java is a collection of reusable, tested, copy-pasteable Java 17 compatible code snippets that you can understand in 30 seconds or less.
     link: /snippets/
     icon: code
+  - title: Book
+    details: Open Source Java Design Patterns book provides a comprehensive guide to various design patterns used in Java programming, illustrated with real-world examples and detailed explanations.
+    link: /book/
+    icon: book
 ---
 
 # Introduction
