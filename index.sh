@@ -3,6 +3,16 @@ echo "language: $1" >> README.md
 echo "title: $2" >> README.md
 echo "---" >> README.md
 echo "" >> README.md
+
+if [ "$1" = "en" ]; then
+    echo "## Get the E-Book" >> README.md
+    echo "" >> README.md
+    echo "Get the entire catalog now as a convenient e-book – your ultimate resource in one download! 📚✨ Follow [this link](https://java-design-patterns.com/book) to get started!" >> README.md
+    echo "" >> README.md
+    echo "## Read Online" >> README.md
+    echo "" >> README.md
+fi
+
 echo "<ul>" >> README.md
 for dir in *; do
     if [ -d "$dir" ] && [ "$dir" != "localization" ]; then
