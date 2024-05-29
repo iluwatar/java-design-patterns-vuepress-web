@@ -1,6 +1,6 @@
-# Book
+# Get the Book
 
-## Unlock the Power of Advanced Java Development with "Open Source Java Design Patterns"
+## For the Price of a Cup of Coffee ☕️, Unlock the Power of Advanced Java Development with "Open Source Java Design Patterns"
 
 **Are you a Java developer looking to elevate your coding skills and architectural knowledge?** Look no further than ["Open Source Java Design Patterns"](https://payhip.com/b/kcaF9), the essential guide for mastering the art of design patterns in Java. This comprehensive resource is your gateway to creating robust, maintainable, and scalable software systems.
 
