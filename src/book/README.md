@@ -1,3 +1,10 @@
+---
+title: "Official Java Design Patterns Book: Master Modern Java Coding Techniques"
+shortTitle: Java Design Patterns Book
+description: "Discover the ultimate Java Design Patterns book for mastering modern Java coding techniques. Learn from in-depth explanations, examples, and step-by-step guides in our essential guidebook."
+language: en
+---
+
 # Get the Book
 
 ## For the Price of a Cup of Coffee ☕️, Unlock the Power of Advanced Java Development with "Open Source Java Design Patterns"
