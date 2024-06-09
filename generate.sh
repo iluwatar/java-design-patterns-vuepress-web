@@ -18,7 +18,7 @@ rm -rf etc .circleci .editorconfig .github .mvn checkstyle-suppressions.xml CONT
 find . -maxdepth 2 -type d -exec bash -c 'cd "{}" && pwd && rm -rf src pom.xml *.ucls *.puml .gitignore' \;
 
 rm -vf README.md
-$ROOT_DIR/index.sh "en" "Design Pattern Catalog"
+$ROOT_DIR/index.sh "en" "Design Pattern Catalog | Java Design Patterns" "Catalog of Java Design Patterns for Developers | Java Design Patterns" "Discover the full list of Java design patterns. This comprehensive guide provides you with all the information you need to master pattern implementation in your Java applications."
 
 # Setup java-design-patterns - localizations
 languages=( zh ko es )

@@ -2,7 +2,9 @@
 blog: false
 home: true
 icon: home
-title: Java Design Patterns
+title: "Explore, Learn, and Master Industry-Standard Patterns"
+shortTitle: Java Design Patterns
+description: "Explore the comprehensive world of Java design patterns. Learn key patterns that every Java developer should know and master to build more robust and scalable applications."
 heroImage: /coffee.svg
 heroText: Software design patterns, principles, and snippets
 tagline: The best designers will use many design patterns that dovetail and intertwine to produce a greater whole --Erich Gamma

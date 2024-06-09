@@ -1,6 +1,8 @@
 echo "---" >> README.md
 echo "language: $1" >> README.md
 echo "title: $2" >> README.md
+echo "shortTitle: $3" >> README.md
+echo "description: $4" >> README.md
 echo "---" >> README.md
 echo "" >> README.md
 
