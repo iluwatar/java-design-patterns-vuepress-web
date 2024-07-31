@@ -1,1 +1,4 @@
 // place your custom styles here
+html[data-theme="dark"] img[src="/coffee.svg"]{
+    filter: invert(0.8)
+}
