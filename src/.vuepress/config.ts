@@ -1,8 +1,11 @@
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from 'vuepress/utils'
 import theme from "./theme.js";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   base: "/",
@@ -47,7 +50,7 @@ export default defineUserConfig({
       id: 'G-CN4DXNE50P',
     }),
     registerComponentsPlugin({
-      componentsDir: 'src/.vuepress/components',
+      componentsDir: path.resolve(__dirname, './components'),
     }),
   ],
 
