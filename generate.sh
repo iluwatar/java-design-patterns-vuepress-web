@@ -10,7 +10,7 @@ cd $DOCS_DIR
 rm -rf java-design-patterns
 rm -rf patterns
 rm -rf zh/patterns
-git clone https://github.com/iluwatar/java-design-patterns.git
+git clone --depth 1 https://github.com/iluwatar/java-design-patterns.git
 cd java-design-patterns
 git checkout-index -a -f --prefix=../patterns/
 cd ../patterns
@@ -45,7 +45,7 @@ rm -rf patterns/localization
 rm -rf programming-principles
 rm -rf principles
 rm -rf zh/principles
-git clone https://github.com/iluwatar/programming-principles.git
+git clone --depth 1 https://github.com/iluwatar/programming-principles.git
 cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
 
@@ -63,7 +63,7 @@ rm -rf programming-principles
 rm -rf 30-seconds-of-java
 rm -rf snippets
 rm -rf zh/snippets
-git clone https://github.com/iluwatar/30-seconds-of-java.git
+git clone --depth 1 https://github.com/iluwatar/30-seconds-of-java.git
 cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 
