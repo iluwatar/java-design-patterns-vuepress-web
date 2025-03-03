@@ -13,6 +13,7 @@ if [ "$1" = "en" ]; then
     echo "" >> README.md
     echo "## Read Online" >> README.md
     echo "" >> README.md
+    echo "Select individual pattern below. Alternatively, browse by [category](https://java-design-patterns.com/category) or [tag](https://java-design-patterns.com/tag)." >> README.md
 fi
 
 echo "<ul>" >> README.md
