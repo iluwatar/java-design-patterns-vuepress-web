@@ -52,7 +52,7 @@ language: en
 
 ## Transform Your Coding Practices
 
-Whether you're a beginner or an experienced developer, ["Open Source Java Design Patterns"](https://payhip.com/b/kcaF9) provides the knowledge and tools to transform your coding practices. Understand the principles behind each pattern and learn how to implement them effectively in your projects.
+Whether you're a beginner or an experienced developer, ["Open Source Java Design Patterns"](https://payhip.com/b/bNQFX) provides the knowledge and tools to transform your coding practices. Understand the principles behind each pattern and learn how to implement them effectively in your projects.
 
 ## Get Your Copy Today!
 
