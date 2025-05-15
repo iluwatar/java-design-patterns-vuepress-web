@@ -9,7 +9,7 @@ language: en
 
 ## Unlock the Power of Advanced Java Development with "Open Source Java Design Patterns"
 
-**Are you a Java developer looking to elevate your coding skills and architectural knowledge?** Look no further than ["Open Source Java Design Patterns"](https://payhip.com/b/bNQFX), the essential guide for mastering the art of design patterns in Java. This comprehensive resource is your gateway to creating robust, maintainable, and scalable software systems.
+**Are you a Java developer looking to elevate your coding skills and architectural knowledge?** Look no further than "Open Source Java Design Patterns", the essential guide for mastering the art of design patterns in Java. This comprehensive resource is your gateway to creating robust, maintainable, and scalable software systems.
 
 [![Click the image to enter the book store](./etc/oil-painting.jpeg)](https://payhip.com/b/bNQFX)
 
@@ -42,20 +42,22 @@ language: en
    - Real-world applications and use cases.
    - Practical implementation tips.
 
-## Why This Book?
+## Choose Your Format
+  - 📘 PDF Edition — Perfect for offline reading, printing, and archiving.
+  - 🔥 Kindle Edition — Optimized for Kindle devices and apps. Ideal for mobile reading and syncing across devices.
 
-- **Comprehensive Coverage**: From creational to structural to behavioral patterns, this book is the largest collection of Java design patterns on the planet.
-- **Hands-On Examples**: Real-world examples and practical tutorials to help you apply each pattern in your projects.
-- **Expert Insights**: Learn from experienced Java developers and architects who share their best practices and tips.
-- **Scalability and Maintainability**: Discover patterns that make your code more scalable, maintainable, and adaptable to change.
-- **Open Source**: This book is based on open source Github repository, allowing you to contribute and learn from a community of developers.
+## Why This Book?
+  - Unmatched Coverage: The largest public collection of Java design patterns.
+  - Code You Can Use: Step-by-step tutorials and production-ready examples.
+  - Architect-Level Insights: Go beyond syntax and understand the why behind each pattern.
+  - Built on Open Source: Based on the popular GitHub repository used by thousands of developers.
 
 ## Transform Your Coding Practices
 
-Whether you're a beginner or an experienced developer, ["Open Source Java Design Patterns"](https://payhip.com/b/bNQFX) provides the knowledge and tools to transform your coding practices. Understand the principles behind each pattern and learn how to implement them effectively in your projects.
+Whether you're a beginner or an experienced developer, "Open Source Java Design Patterns" provides the knowledge and tools to transform your coding practices. Understand the principles behind each pattern and learn how to implement them effectively in your projects.
 
 ## Get Your Copy Today!
 
-Don't miss out on the opportunity to become a more skilled and efficient Java developer. Enhance your programming toolkit with ["Open Source Java Design Patterns"](https://payhip.com/b/bNQFX) and take your software development skills to the next level.
+[📘 Download the PDF](https://payhip.com/b/bNQFX) — or — [🔥 Read on Kindle](https://www.amazon.com/Open-Source-Java-Design-Patterns-ebook/dp/B0F8KGB2X3)
 
-**[Order now](https://payhip.com/b/bNQFX) and start your journey towards mastering Java design patterns!**
+**Start mastering Java design patterns today!**
