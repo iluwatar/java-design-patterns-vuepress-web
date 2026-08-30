@@ -59,6 +59,33 @@ use the most popular battle-proven open source Java technologies.
 Hopefully you find the object oriented solutions presented on this site useful
 in your architectures and have as much fun learning them as we had developing them.
 
+# Supporters
+
+<section class="supporters" aria-label="Project supporters">
+  <article class="supporter-card">
+    <a
+      class="supporter-logo"
+      href="https://serpapi.com/?utm_source=javadesignpatterns"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visit SerpApi"
+    >
+      <img class="supporter-logo-light" src="/banner-wide-black.svg" alt="SerpApi">
+      <img class="supporter-logo-dark" src="/banner-wide.svg" alt="SerpApi">
+    </a>
+    <div class="supporter-details">
+      <h3>
+        <a
+          href="https://serpapi.com/?utm_source=javadesignpatterns"
+          target="_blank"
+          rel="noopener noreferrer"
+        >SerpApi</a>
+      </h3>
+      <p>SerpApi is the world’s leading provider of search data, pioneering APIs that turn search engine results into structured, developer-ready information.</p>
+    </div>
+  </article>
+</section>
+
 # How to contribute
 
 The website is the result of the work of the open source community. To contribute
