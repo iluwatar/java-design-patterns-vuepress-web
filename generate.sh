@@ -10,6 +10,7 @@ cd $DOCS_DIR
 rm -rf java-design-patterns
 rm -rf patterns
 rm -rf zh/patterns
+rm -rf fr/patterns
 git clone --depth 1 https://github.com/iluwatar/java-design-patterns.git
 cd java-design-patterns
 git checkout-index -a -f --prefix=../patterns/
@@ -21,8 +22,8 @@ rm -vf README.md
 $ROOT_DIR/index.sh "en" "Design Pattern Catalog" "Catalog of Java Design Patterns for Developers" "Discover the full list of Java design patterns. This comprehensive guide provides you with all the information you need to master pattern implementation in your Java applications."
 
 # Setup java-design-patterns - localizations
-languages=( zh ko es )
-catalogs=( "设计模式目录" "디자인 패턴 카탈로그" "Catalogo de patrones de diseño" )
+languages=( zh ko es fr )
+catalogs=( "设计模式目录" "디자인 패턴 카탈로그" "Catalogo de patrones de diseño" "Catalogue des patrons de conception" )
 
 iter=0
 for lan in "${languages[@]}"
@@ -32,7 +33,11 @@ do
   cp -vrf * ../../../$lan/patterns
   cd ../../../$lan/patterns
   rm -vf README.md
-  $ROOT_DIR/index.sh "$lan" "${catalogs[$iter]}"
+  if [ "$lan" = "fr" ]; then
+    $ROOT_DIR/index.sh "$lan" "${catalogs[$iter]}" "${catalogs[$iter]}"
+  else
+    $ROOT_DIR/index.sh "$lan" "${catalogs[$iter]}"
+  fi
   cd ../../patterns
   iter=$((iter+1))
 done
@@ -50,7 +55,7 @@ cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
 
 # setup programming-principles - localizations
-languages=( zh ko es )
+languages=( zh ko es fr )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/principles
@@ -68,7 +73,7 @@ cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 
 # setup 30-seconds-of-java - localizations
-languages=( zh ko es )
+languages=( zh ko es fr )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/snippets

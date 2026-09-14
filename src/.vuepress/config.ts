@@ -39,6 +39,11 @@ export default defineUserConfig({
       title: "Patrones de Diseño Java",
       description: "Patrones de Diseño Java (Español)",
     },
+    "/fr/": {
+      lang: "fr-FR",
+      title: "Patrons de conception Java",
+      description: "Patrons de conception Java en français",
+    },
   },
 
   theme,
