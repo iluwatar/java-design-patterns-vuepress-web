@@ -18,7 +18,7 @@ fi
 
 echo "<ul>" >> README.md
 for dir in *; do
-    if [ -d "$dir" ] && [ "$dir" != "localization" ]; then
+    if [ -d "$dir" ] && [ "$dir" != "localization" ] && [ -f "$dir/README.md" ]; then
         title=$( grep "shortTitle: " $dir/README.md | cut -d " " -f2- )
         echo "<li><a href="$dir">$title</a></li>" >> README.md
     fi
